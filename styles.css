@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    line-height: 1.6;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    color: #343a40;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #343a40;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: #343a40;
+}
+
+h4 {
+    font-size: 1.3rem;
+    color: #343a40;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* График стилі */
+.chart-canvas {
+    max-height: 250px !important;
+    width: 100%;
+}
+
+/* Викторина стилі */
+#quiz-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#question {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#options .btn {
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+#result {
+    font-size: 1.2rem;
+}
+
+/* Галерея стилі */
+.img-fluid {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Мобильді экрандарға арналған стильдер */
+@media (max-width: 768px) {
+    section {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .chart-canvas {
+        max-height: 200px !important;
+    }
+
+    .img-fluid {
+        max-height: 150px;
+    }
+
+    #question {
+        font-size: 1.3rem;
+    }
+
+    #options .btn {
+        font-size: 1rem;
+    }
+
+    #result {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+    }
+}
